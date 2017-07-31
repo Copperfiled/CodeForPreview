@@ -1,7 +1,5 @@
 # README
 
-# README
-
 # 1. Zaojiu-swift3
 基于swift3.0的app
 
