@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func nextPage(_ sender: UIButton) {
+        let vc = HomeViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
